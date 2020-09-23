@@ -1,0 +1,324 @@
+/ **
+ *
+* @author joaovit~ juntas são todas
+ * /
+a  exibição de classe  pública estende javax.swing . JFrame {  
+
+    / **
+     * Cria uma nova tela de formulário
+     * /
+     exibição pública () {
+        initComponents ();
+    }
+
+    / **
+     * Este método é chamado de dentro do construtor para inicializar o formulário.
+     * AVISO: NÃO modifique este código. O conteúdo deste método é sempre
+     * regenerado pelo Form Editor.
+     * /
+    @SuppressWarnings ( " desmarcado " )
+    
+    / *
+    * Var global
+    * /
+    duplo a =  0,0 ;
+    duplo b =  0,0 ;
+    duplo c =  0,0 ;
+    
+    
+            
+  
+    
+    
+    // <editor-fold defaultstate = "collapsed" desc = "Generated Code"> // GEN-BEGIN: initComponents
+    private  void  initComponents () {
+
+        jPanel1 =  novo  javax.swing . JPanel ();
+        jLabel2 =  novo  javax.swing . JLabel ();
+        jLabel3 =  novo  javax.swing . JLabel ();
+        jLabel1 =  novo  javax.swing . JLabel ();
+        jLabel4 =  novo  javax.swing . JLabel ();
+        jTextFieldDelta =  new  javax.swing . JTextField ();
+        jLabel9 =  novo  javax.swing . JLabel ();
+        jLabel10 =  novo  javax.swing . JLabel ();
+        jTextFieldB =  new  javax.swing . JTextField ();
+        jLabel11 =  novo  javax.swing . JLabel ();
+        jLabel12 =  novo  javax.swing . JLabel ();
+        jLabel13 =  novo  javax.swing . JLabel ();
+        jTextFieldA =  new  javax.swing . JTextField ();
+        jLabel14 =  novo  javax.swing . JLabel ();
+        jTextFieldC =  new  javax.swing . JTextField ();
+        jButtonGo =  new  javax.swing . JButton ();
+        jLabel5 =  novo  javax.swing . JLabel ();
+        jLabel6 =  novo  javax.swing . JLabel ();
+        jTextFieldR1 =  new  javax.swing . JTextField ();
+        jTextFieldR2 =  new  javax.swing . JTextField ();
+
+        javax.swing . GroupLayout jPanel1Layout =  new  javax.swing . GroupLayout (jPanel1);
+        jPanel1 . setLayout (jPanel1Layout);
+        jPanel1Layout . setHorizontalGroup (
+            jPanel1Layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+            .addGap ( 0 , 100 , Curto . MAX_VALUE )
+        );
+        jPanel1Layout . setVerticalGroup (
+            jPanel1Layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+            .addGap ( 0 , 100 , Curto . MAX_VALUE )
+        );
+
+        jLabel2 . setText ( " jLabel2 " );
+
+        setDefaultCloseOperation ( javax.swing . WindowConstants . EXIT_ON_CLOSE );
+        setResizable ( false );
+
+        jLabel1 . setText ( " BORA BAHEA BBMP " );
+
+        jLabel4 . setText ( " DELTA " );
+
+        jTextFieldDelta . setEditable ( false );
+        jTextFieldDelta . setEnabled ( false );
+
+        jLabel9 . setText ( " = " );
+
+        jLabel10 . setText ( " B " );
+
+        jLabel11 . setText ( " 2 " );
+
+        jLabel12 . setText ( " - " );
+
+        jLabel13 . setText ( " 4 * A " );
+
+        jLabel14 . setText ( " * C " );
+
+        jButtonGo . setText ( " BAHIA " );
+        jButtonGo . addActionListener ( new  java.awt.event . ActionListener () {
+            public  void  actionPerformed ( java.awt.event . ActionEvent  evt ) {
+                jButtonGoActionPerformed (evt);
+            }
+        });
+
+        jLabel5 . setText ( " R ': " );
+
+        jLabel6 . setText ( " R '': " );
+
+        jTextFieldR1 . setEnabled ( false );
+
+        jTextFieldR2 . setEditable ( false );
+        jTextFieldR2 . setEnabled ( false );
+
+        javax.swing . Layout GroupLayout =  new  javax.swing . GroupLayout (getContentPane ());
+        getContentPane () . setLayout (layout);
+        layout . setHorizontalGroup (
+            layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+            .addGroup (layout . createSequentialGroup ()
+                .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+                    .addGroup (layout . createSequentialGroup ()
+                        .addContainerGap ()
+                        .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . TRAILING )
+                            .addGroup ( javax.swing . GroupLayout . Alinhamento . LEADING , layout . createSequentialGroup ()
+                                .addComponent (jLabel4)
+                                .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                .addComponent (jTextFieldDelta, javax.swing . GroupLayout . PREFERRED_SIZE , 79 , javax.swing . GroupLayout . PREFERRED_SIZE )
+                                .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                .addComponent (jLabel9)
+                                .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                .addComponent (jLabel10)
+                                .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . TRAILING )
+                                    .addGroup (layout . createSequentialGroup ()
+                                        .addGap ( 0 , 0 , curto . MAX_VALUE )
+                                        .addComponent (jLabel6)
+                                        .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                        .addComponent (jTextFieldR2, javax.swing . GroupLayout . PREFERRED_SIZE , 150 , javax.swing . GroupLayout . PREFERRED_SIZE ))
+                                    .addGroup (layout . createSequentialGroup ()
+                                        .addComponent (jTextFieldB)
+                                        .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                        .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+                                            .addComponent (jLabel11, javax.swing . GroupLayout . Alignment . TRAILING , javax.swing . GroupLayout . PREFERRED_SIZE , 18 , javax.swing . GroupLayout . PREFERRED_SIZE )
+                                            .addGroup ( javax.swing . GroupLayout . Alignment . TRAILING , layout . createSequentialGroup ()
+                                                .addComponent (jLabel12, javax.swing . GroupLayout . PREFERRED_SIZE , 6 , javax.swing . GroupLayout . PREFERRED_SIZE )
+                                                .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                                .addComponent (jLabel13)))
+                                        .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                        .addComponent (jTextFieldA, javax.swing . GroupLayout . PREFERRED_SIZE , 40 , javax.swing . GroupLayout . PREFERRED_SIZE )
+                                        .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                        .addComponent (jLabel14)
+                                        .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                        .addComponent (jTextFieldC, javax.swing . GroupLayout . PREFERRED_SIZE , 34 , javax.swing . GroupLayout . PREFERRED_SIZE ))))
+                            .addGroup ( javax.swing . GroupLayout . Alinhamento . LEADING , layout . createSequentialGroup ()
+                                .addComponent (jLabel5)
+                                .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                                .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+                                    .addComponent (jButtonGo, javax.swing . GroupLayout . PREFERRED_SIZE , 339 , javax.swing . GroupLayout . PREFERRED_SIZE )
+                                    .addComponent (jTextFieldR1, javax.swing . GroupLayout . PREFERRED_SIZE , 150 , javax.swing . GroupLayout . PREFERRED_SIZE ))))
+                        .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELACIONADO )
+                        .addComponent (jLabel3))
+                    .addGroup (layout . createSequentialGroup ()
+                        .addGap ( 105 , 105 , 105 )
+                        .addComponent (jLabel1)))
+                .addGap ( 25 , 25 , 25 ))
+        );
+        layout . setVerticalGroup (
+            layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+            .addGroup (layout . createSequentialGroup ()
+                .addGap ( 12 , 12 , 12 )
+                .addComponent (jLabel1)
+                .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+                    .addGroup (layout . createSequentialGroup ()
+                        .addGap ( 87 , 87 , 87 )
+                        .addComponent (jLabel3)
+                        .addContainerGap ( javax.swing . GroupLayout . DEFAULT_SIZE , Short . MAX_VALUE ))
+                    .addGroup (layout . createSequentialGroup ()
+                        .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+                            .addGroup (layout . createSequentialGroup ()
+                                .addGap ( 18 , 18 , 18 )
+                                .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . BASELINE )
+                                    .addComponent (jLabel4)
+                                    .addComponent (jLabel9)
+                                    .addComponent (jLabel10)
+                                    .addComponent (jTextFieldB)
+                                    .addComponent (jTextFieldC, javax.swing . GroupLayout . PREFERRED_SIZE , javax.swing . GroupLayout . DEFAULT_SIZE , javax.swing . GroupLayout . PREFERRED_SIZE )
+                                    .addComponent (jTextFieldDelta, javax.swing . GroupLayout . PREFERRED_SIZE , javax.swing . GroupLayout . DEFAULT_SIZE , javax.swing . GroupLayout . PREFERRED_SIZE )))
+                            .addGroup (layout . createSequentialGroup ()
+                                .addPreferredGap ( javax.swing . LayoutStyle . ComponentPlacement . RELATED , javax.swing . GroupLayout . DEFAULT_SIZE , Short . MAX_VALUE )
+                                .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . LEADING )
+                                    .addGroup (layout . createSequentialGroup ()
+                                        .addGap ( 12 , 12 , 12 )
+                                        .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . BASELINE )
+                                            .addComponent (jLabel12)
+                                            .addComponent (jLabel13)
+                                            .addComponent (jTextFieldA, javax.swing . GroupLayout . PREFERRED_SIZE , javax.swing . GroupLayout . DEFAULT_SIZE , javax.swing . GroupLayout . PREFERRED_SIZE )
+                                            .addComponent (jLabel14)))
+                                    .addComponent (jLabel11))))
+                        .addGap ( 24 , 24 , 24 )
+                        .addGroup (layout . createParallelGroup ( javax.swing . GroupLayout . Alignment . BASELINE )
+                            .addComponent (jLabel5)
+                            .addComponent (jTextFieldR1, javax.swing . GroupLayout . PREFERRED_SIZE , javax.swing . GroupLayout . DEFAULT_SIZE , javax.swing . GroupLayout . PREFERRED_SIZE )
+                            .addComponent (jLabel6)
+                            .addComponent (jTextFieldR2, javax.swing . GroupLayout . PREFERRED_SIZE , javax.swing . GroupLayout . DEFAULT_SIZE , javax.swing . GroupLayout . PREFERRED_SIZE ))
+                        .addGap ( 18 , 18 , 18 )
+                        .addComponent (jButtonGo)
+                        .addContainerGap ())))
+        );
+
+        pacote();
+    } // </editor-fold> // GEN-END: initComponents
+
+    private  void  jButtonGoActionPerformed ( java.awt.event . ActionEvent  evt ) { // GEN-FIRST: event_jButtonGoActionPerformed
+        readValues ​​();
+        if (returnDelta () > =  0,0  && a ! =  0,0 )
+        {
+            jTextFieldDelta . setText ( String . valueOf (valueOnString (returnDelta ())));
+            jTextFieldR1 . setText ( String . valueOf (valueOnString (returnRline ( ' + ' ))));
+            jTextFieldR2 . setText ( String . valueOf (valueOnString (returnRline ( ' - ' ))));
+        } else
+        {
+            JOptionPane . showMessageDialog ( null , " Não é possível calcular! " );
+        }
+        
+      
+    } // GEN-LAST: event_jButtonGoActionPerformed
+
+    / *
+    * funções do programa
+    * /
+    public  void  readValues ()
+    {
+        a =  duplo . parseDouble (jTextFieldA . getText ());
+        b =  duplo . parseDouble (jTextFieldB . getText ());
+        c =  duplo . parseDouble (jTextFieldC . getText ());
+    }
+    
+    public  String  valueOnString ( valor duplo  )
+    {
+        Resultado da string ;
+        resultado =  String . formato ( " % .5f " , valor);
+       
+       resultado de retorno ;
+    }
+    
+    public  double  getSqrt ( valor duplo  )
+    {
+        retornar sqrt (valor);
+    }
+    
+    public  double  returnDelta ()
+    {
+        delta duplo = (b * b) - ( 4  * a * c);
+        return delta;
+    }
+    
+    public  double  returnRline ( símbolo char  )
+    {
+        double expr =  0,0 ;
+        if (símbolo ==  ' + ' )
+        {
+            expr = (( - 1  * b) + getSqrt (returnDelta ())) / ( 2 * a);
+        } else  if (símbolo ==  ' - ' )
+        {
+            expr = (( - 1  * b) - getSqrt (returnDelta ())) / ( 2 * a);
+        }
+        return expr;
+    }
+    
+    
+    
+    
+    / **
+     * @param args os argumentos da linha de comando
+     * /
+    public  static  void  main ( String  args []) {
+        
+        
+        
+        
+        / * Definir a aparência do Nimbus * /
+        // <editor-fold defaultstate = "collapsed" desc = "Código de configuração de aparência e comportamento (opcional)">
+        / * Se o Nimbus (introduzido no Java SE 6) não estiver disponível, mantenha a aparência padrão.
+         * Para obter detalhes, consulte http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         * /
+        tente {
+            para ( javax.swing . UIManager . LookAndFeelInfo info :  javax.swing . UIManager . getInstalledLookAndFeels ()) {
+                if ( " Nimbus " . equals (info . getName ())) {
+                    javax.swing . UIManager . setLookAndFeel (info . getClassName ());
+                    pausa ;
+                }
+            }
+        } catch ( ClassNotFoundException ex) {
+            java.util.logging . Logger . getLogger (display . class . getName ()) . log ( java.util.logging . Nível . SEVERE , null , ex);
+        } catch ( InstantiationException ex) {
+            java.util.logging . Logger . getLogger (display . class . getName ()) . log ( java.util.logging . Nível . SEVERE , null , ex);
+        } catch ( IllegalAccessException ex) {
+            java.util.logging . Logger . getLogger (display . class . getName ()) . log ( java.util.logging . Nível . SEVERE , null , ex);
+        } catch ( javax.swing . UnsupportedLookAndFeelException ex) {
+            java.util.logging . Logger . getLogger (display . class . getName ()) . log ( java.util.logging . Nível . SEVERE , null , ex);
+        }
+        // </editor-fold>
+
+        / * Criar e exibir o formulário * /
+        java.awt . EventQueue . invokeLater (() - > {
+            novo display () . setVisible ( true );
+        });
+    }
+
+    // Declaração de variáveis ​​- não modifique // GEN-BEGIN: variáveis
+     javax.swing privado . JButton jButtonGo;
+     javax.swing privado . JLabel jLabel1;
+     javax.swing privado . JLabel jLabel10;
+     javax.swing privado . JLabel jLabel11;
+     javax.swing privado . JLabel jLabel12;
+     javax.swing privado . JLabel jLabel13;
+     javax.swing privado . JLabel jLabel14;
+     javax.swing privado . JLabel jLabel2;
+     javax.swing privado . JLabel jLabel3;
+     javax.swing privado . JLabel jLabel4;
+     javax.swing privado . JLabel jLabel5;
+     javax.swing privado . JLabel jLabel6;
+     javax.swing privado . JLabel jLabel9;
+     javax.swing privado . JPanel jPanel1;
+     javax.swing privado . JTextField jTextFieldA;
+     javax.swing privado . JTextField jTextFieldB;
+     javax.swing privado . JTextField jTextFieldC;
+     javax.swing privado . JTextField jTextFieldDelta;
+     javax.swing privado . JTextField jTextFieldR1;
+     javax.swing privado . JTextField jTextFieldR2;
+    // Fim da declaração de variáveis ​​// GEN-END: variáveis
