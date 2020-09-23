@@ -1,3 +1,14 @@
+/ *
+ * Para alterar este cabeçalho de licença, escolha Cabeçalhos de licença em Propriedades do projeto.
+* Para alterar este arquivo de modelo, escolha Ferramentas | Modelos
+ * e abra o modelo no editor.
+ * /
+package  ui ;
+
+import  java.awt.event.ActionEvent ;
+import static  java.lang.Math.sqrt ;
+import  javax.swing.JOptionPane ;
+
 / **
  *
 * @author joaovit~ juntas são todas
@@ -322,3 +333,4 @@ a  exibição de classe  pública estende javax.swing . JFrame {
      javax.swing privado . JTextField jTextFieldR1;
      javax.swing privado . JTextField jTextFieldR2;
     // Fim da declaração de variáveis ​​// GEN-END: variáveis
+}
